@@ -56,8 +56,8 @@ VARIABLES
 
   --theme-light-bgimage:   linear-gradient(to right bottom, #051937, #162454, #312d70, #533389, #7a359f);
   --theme-dark-bgimage:    linear-gradient(to right bottom, #000000, #160b11, #20141e, #281b2e, #2b2440);
-  --theme-neutral-bgimage: url('./src/static/bg.jpeg');
-  --theme-default-bgimage: var(--theme-light-bgimage);
+  --theme-neutral-bgimage: url(@static/bg.jpeg);
+  --theme-default-bgimage: var(--theme-neutral-bgimage);
 }
 
 /***************************************************

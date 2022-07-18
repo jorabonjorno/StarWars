@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import  PropTypes from 'prop-types';
 import cn from 'classnames';
 import {useTheme, THEME_LIGHT, THEME_DARK, THEME_NEUTRAL} from '@context/ThemeProvider'
 import imgLightSide from './img/light-side.jpeg';

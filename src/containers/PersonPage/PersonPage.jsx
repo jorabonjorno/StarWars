@@ -69,7 +69,7 @@ const PersonPage = ({setErrorApi}) => {
                     {personInfo && <PersonInfo personInfo={personInfo} />}
                     {personFilms && (
                         <Suspense fallback={<UiLoading />}>
-                            <PersonFilms personFilms={personFilms}/>}
+                            <PersonFilms personFilms={personFilms}/>
                         </Suspense>
                         )}
                 </div>
